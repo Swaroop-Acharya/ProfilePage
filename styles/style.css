@@ -1,0 +1,43 @@
+:root {
+  --clr-white: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'General sans', sans-serif;
+  background: #003973;
+  color: var(--clr-white);
+  background: -webkit-linear-gradient(to right, #e5e5be, #003973);
+  background: linear-gradient(to right, #e5e5be, #003973);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+}
+
+a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+.github__img {
+  width: 3rem;
+  height: 3rem;
+}

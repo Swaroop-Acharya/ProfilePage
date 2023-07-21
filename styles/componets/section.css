@@ -1,0 +1,43 @@
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.socials_container {
+    border: 2px solid var(--clr-white);
+    border-radius: 0.5rem;
+    overflow:hidden;
+    width: 250px;
+}
+
+.social__linkedin{
+    padding: 0.6rem;
+    display: flex;
+    gap: 0.5rem;
+    overflow:hidden;
+    transition: 0.3s;
+}
+.social__container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.social__linkedin-title{
+    font-size: 1.2rem;
+}
+
+.social__linkedin-followers{
+    font-size: 0.7rem;
+}
+
+.social__linkedin:hover{
+    background-color: #aab6c7 ;
+    
+}

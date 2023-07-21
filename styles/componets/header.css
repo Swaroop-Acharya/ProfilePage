@@ -1,0 +1,25 @@
+.header-main__img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.header-main{
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.8rem;
+
+}
+
+.btn__container{
+    display: flex;
+    gap: 1rem;
+
+}
+.header-main__subtitle{
+    color: #dce2ea ;
+}
